@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* main 요소 너비 제한 및 가운데 정렬 */
+main {
+    width: 90%;
+    max-width: 900px;
+}
+
+/* 테이블 선 */
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* 마우스 hover 시 배경색 */
+tbody tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+/* 링크 색상 */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
