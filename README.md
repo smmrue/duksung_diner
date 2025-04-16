@@ -13,3 +13,6 @@
 - `pages/`: 각 맛집의 상세 페이지 (`place1.html` ~ `place10.html`)
 - `media/`: 맛집 대표 이미지 파일 저장
 - `style.css`: 외부 스타일시트
+
+## 주소
+- [https://smmrue.github.io/duksung_diner/](https://smmrue.github.io/duksung_diner/)]
