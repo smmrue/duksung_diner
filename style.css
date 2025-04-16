@@ -7,12 +7,51 @@ body {
     margin: 0;
     padding: 0;
 }
+/*공통 박스*/
+.section-box {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
 
-/* 메인인 요소 너비 제한 및 가운데 정렬 */
+/*목차 영역 박스*/
+.nav-box {
+    background-color: #f0f4f8;
+}
+
+/*본문 콘텐츠 박스 */
+.content-box {
+    background-color: #e8edf8;
+}
+
+/* 메인 요소 너비 제한 및 가운데 정렬 */
 main {
     width: 90%;
     max-width: 900px;
 }
+
+/* 주소 강조*/
+.address-highlight {
+    background-color: #e1f3fc;
+    color: #003366;
+    font-weight: 600;
+    padding: 1px;
+    border-radius: 4px;
+  }
+
+/*개요 하이라이트*/
+.overview-highlight {
+    background-color: #d0ecfa;
+    padding: 1rem;
+    border-left: 5px solid #0077cc;
+    margin-top: 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
 
 /* 테이블 */
 table, th, td {
@@ -30,9 +69,9 @@ a {
     color: #0077cc;
     text-decoration: none;
 }
-
+/* 마우스 hover 시 글씨씨색 */
 a:hover {
-    color: orange;
+    color: rgb(243, 117, 186);
     text-decoration: underline;
 }
 

@@ -2,17 +2,17 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <title>맛집</title>
+        <title>덕성여대 주변 맛집 찾기</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <h1>덕성여대 맛집 찾기</h1>
+            <h1>덕성여대 주변 맛집 찾기</h1>
         </header>
 
-        <!--페이지 목차-->>
-        <nav>
-            <h3>페이지 목차</h3>
+        <!--페이지 목차-->
+        <nav class = "section-box nav-box">
+            <h3>목차</h3>
             <ul>
                 <li><a href="#overview">페이지 개요</a></li>
                 <li><a href="#list">맛집 목록</a></li>
@@ -20,21 +20,21 @@
             </ul>
         </nav>
 
-        <main>
+        <main class="section-box content-box">
             <!--페이지 개요-->
             <section id ="overview">
                 <h2>개요</h2>
-                <p>덕성여자대학교는 <mark>서울 도봉구 삼양로144길 33</mark>에 있습니다.<br>
-                    맛집 탐방
+                <p>덕성여자대학교는 <span class="address-highlight">서울 도봉구 삼양로144길 33</span>에 위치해 있습니다.<br>
+                    덕성여대 주변의 다양한 맛집을 소개합니다.
                 </p>
-                <aside style="background-color: skyblue; padding:20px;">
-            다이닝 코드에서 <span style="color:red;">맛집</span>을 찾아봅시다.</aside>
+                <aside class="overview-highlight">
+                    <strong>다이닝코드</strong>에서 덕성여대 근처 맛집을 확인해 보세요!
             </section>
 
-            <!--맛집 리스트트-->
+            <!--맛집 리스트-->
             <section id ="list">
                 <h2>
-                    덕성여대 맛집 목록(from. <a href="https://www.diningcode.com/list.dc?query=%EB%8D%95%EC%84%B1%EC%97%AC%EB%8C%80" target="_blank">다이닝코드</a>)
+                    맛집 목록(from. <a href="https://www.diningcode.com/list.dc?query=%EB%8D%95%EC%84%B1%EC%97%AC%EB%8C%80" target="_blank">다이닝코드</a>)
                 </h2>
                 <ol type="1">
                     <li><a href="./pages/place1.html" title="상세페이지로 이동">미성반점 419</a></li>
@@ -50,7 +50,7 @@
                 </ol>
             </section>
             
-            <!--맛집 상세정보보-->
+            <!--맛집 상세정보-->
             <section id ="detail">
                 <h2>맛집 상세 정보</h2>
                 <table border="1">
